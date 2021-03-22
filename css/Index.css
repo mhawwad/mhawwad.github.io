@@ -129,13 +129,6 @@ section {
     margin-right: 5%;  
     }
 
-.ball {
-    
-    position: relative;
-    border-radius: 100%;
-    opacity: 0.7;
-    padding-top: -15vh;
-  }
 
 .ai{
   color: #ff9b00;
