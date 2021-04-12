@@ -2,21 +2,21 @@ body {
     margin: 0;
     color: white;
     /* cursor: none; */
-    overflow-y: hidden;
+    
     overflow-x: hidden;
 }
 
-
-
-.scroll{
-  height: 100vh ;
-  overflow: auto;
-  overflow-x: hidden;
-  scroll-snap-type: y mandatory;
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  margin-top: 100vh;
 }
+
+
 section {
     height: 100vh;
-    scroll-snap-align: start;
+    
     
   }
 @media screen and (max-width: 576px){
